@@ -1,4 +1,38 @@
-# skeleton — will be filled in Task 6
+# .github/workflows/scrape.yml
 name: Daily Scrape
-on: {}
-jobs: {}
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 2am UTC daily
+  workflow_dispatch:  # allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scripts/scraper.py
+
+      - name: Commit new/updated acts
+        run: |
+          git config user.name "india-laws-bot"
+          git config user.email "bot@india-laws"
+          git add acts/
+          git diff --staged --quiet || git commit -m "chore: scraper update $(date +%Y-%m-%d)"
+
+      - name: Push
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
