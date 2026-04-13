@@ -2,6 +2,9 @@
 topic: directive-principles
 acts: [constitution]
 updated: 2026-04-12
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1950
 ---
 
 ## Definition

@@ -2,6 +2,9 @@
 topic: real-estate-rera
 acts: [real-estate-regulation-and-development-act-2016]
 updated: 2026-04-12
+status: current
+department: "Ministry of Housing and Urban Affairs"
+enactment_date: 2016
 ---
 
 ## Definition

@@ -2,6 +2,9 @@
 topic: arbitration
 acts: [arbitration-and-conciliation-act-1996]
 updated: 2026-04-12
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1996
 ---
 
 ## Definition

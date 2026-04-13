@@ -2,6 +2,9 @@
 topic: evidence-rules
 acts: [bsa-2023, evidence-act-1872]
 updated: 2026-04-12
+status: current
+department: "Ministry of Home Affairs"
+enactment_date: 2023
 ---
 
 ## Definition

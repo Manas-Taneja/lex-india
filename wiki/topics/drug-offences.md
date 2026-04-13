@@ -2,6 +2,9 @@
 topic: drug-offences
 acts: [ndps-act-1985]
 updated: 2026-04-12
+status: current
+department: "Ministry of Finance"
+enactment_date: 1985
 ---
 
 ## Definition

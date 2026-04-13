@@ -8,6 +8,9 @@ acts:
   - National Green Tribunal Act 2010
   - Coastal Regulation Zone Notification 2019
 updated: 2026-04-13
+status: current
+department: "Ministry of Environment, Forest and Climate Change"
+enactment_date: 1986
 ---
 
 # Environmental Clearance

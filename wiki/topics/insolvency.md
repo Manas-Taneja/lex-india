@@ -2,6 +2,9 @@
 topic: insolvency
 acts: [insolvency-and-bankruptcy-code-2016]
 updated: 2026-04-12
+status: current
+department: "Ministry of Corporate Affairs"
+enactment_date: 2016
 ---
 
 ## Definition

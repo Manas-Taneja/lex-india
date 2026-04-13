@@ -4,6 +4,9 @@ acts:
   - Customs Act 1962
   - Customs Tariff Act 1975
 updated: 2026-04-13
+status: current
+department: "Ministry of Finance"
+enactment_date: 1962
 ---
 
 # Customs Duty

@@ -3,6 +3,9 @@ topic: land-acquisition
 acts:
   - Right to Fair Compensation and Transparency in Land Acquisition Rehabilitation and Resettlement Act 2013
 updated: 2026-04-13
+status: current
+department: "Ministry of Rural Development"
+enactment_date: 2013
 ---
 
 # Land Acquisition

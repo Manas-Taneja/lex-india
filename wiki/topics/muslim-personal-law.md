@@ -6,6 +6,9 @@ acts:
   - Muslim Women (Protection of Rights on Divorce) Act 1986
   - Muslim Women (Protection of Rights on Marriage) Act 2019
 updated: 2026-04-13
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1937
 ---
 
 # Muslim Personal Law

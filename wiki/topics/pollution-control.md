@@ -6,6 +6,9 @@ acts:
   - Environment (Protection) Act 1986
   - National Green Tribunal Act 2010
 updated: 2026-04-13
+status: current
+department: "Ministry of Environment, Forest and Climate Change"
+enactment_date: 1974
 ---
 
 # Pollution Control

@@ -4,6 +4,9 @@ acts:
   - Rights of Persons with Disabilities Act 2016
   - Rights of Persons with Disabilities Rules 2017
 updated: 2026-04-13
+status: current
+department: "Ministry of Social Justice and Empowerment"
+enactment_date: 2016
 ---
 
 # Disability Rights

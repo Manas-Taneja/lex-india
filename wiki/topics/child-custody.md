@@ -7,6 +7,9 @@ acts:
   - Special Marriage Act 1954
   - Protection of Children from Sexual Offences Act 2012
 updated: 2026-04-13
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1956
 ---
 
 # Child Custody

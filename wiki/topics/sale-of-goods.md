@@ -2,6 +2,9 @@
 topic: sale-of-goods
 acts: [sale-of-goods-act-1930]
 updated: 2026-04-12
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1930
 ---
 
 ## Definition

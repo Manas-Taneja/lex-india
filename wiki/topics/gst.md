@@ -7,6 +7,9 @@ acts:
   - Union Territory Goods and Services Tax Act 2017
   - GST (Compensation to States) Act 2017
 updated: 2026-04-13
+status: current
+department: "Ministry of Finance"
+enactment_date: 2017
 ---
 
 # Goods and Services Tax (GST)

@@ -2,6 +2,9 @@
 topic: civil-suit-procedure
 acts: [cpc-1908]
 updated: 2026-04-12
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1908
 ---
 
 ## Definition

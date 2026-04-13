@@ -4,6 +4,9 @@ acts:
   - Copyright Act 1957
   - Copyright (Amendment) Act 2012
 updated: 2026-04-13
+status: current
+department: "Ministry of Commerce and Industry"
+enactment_date: 1957
 ---
 
 # Copyright

@@ -3,6 +3,9 @@ topic: provident-fund
 acts:
   - Employees' Provident Funds and Miscellaneous Provisions Act 1952
 updated: 2026-04-13
+status: current
+department: "Ministry of Labour and Employment"
+enactment_date: 1952
 ---
 
 # Provident Fund

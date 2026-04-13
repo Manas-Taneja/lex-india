@@ -2,6 +2,9 @@
 topic: partnership
 acts: [indian-partnership-act-1932, limited-liability-partnership-act-2008]
 updated: 2026-04-12
+status: current
+department: "Ministry of Corporate Affairs"
+enactment_date: 2008
 ---
 
 ## Definition

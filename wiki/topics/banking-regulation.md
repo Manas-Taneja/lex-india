@@ -7,6 +7,9 @@ acts:
   - Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act 2002
   - Insolvency and Bankruptcy Code 2016
 updated: 2026-04-13
+status: current
+department: "Ministry of Finance"
+enactment_date: 1949
 ---
 
 # Banking Regulation

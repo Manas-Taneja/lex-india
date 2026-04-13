@@ -2,6 +2,9 @@
 topic: cybercrime
 acts: [it-act-2000, bns-2023]
 updated: 2026-04-12
+status: current
+department: "Ministry of Electronics and Information Technology"
+enactment_date: 2000
 ---
 
 ## Definition

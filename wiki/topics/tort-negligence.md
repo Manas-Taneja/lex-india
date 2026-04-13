@@ -2,6 +2,9 @@
 topic: tort-negligence
 acts: [motor-vehicles-act-1988, consumer-protection-act-2019]
 updated: 2026-04-12
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1908
 ---
 
 ## Definition

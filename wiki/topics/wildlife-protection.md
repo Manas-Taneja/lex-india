@@ -5,6 +5,9 @@ acts:
   - Environment (Protection) Act 1986
   - Foreign Trade (Development and Regulation) Act 1992
 updated: 2026-04-13
+status: current
+department: "Ministry of Environment, Forest and Climate Change"
+enactment_date: 1972
 ---
 
 # Wildlife Protection

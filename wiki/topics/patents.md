@@ -4,6 +4,9 @@ acts:
   - Patents Act 1970
   - Patents (Amendment) Act 2005
 updated: 2026-04-13
+status: current
+department: "Ministry of Commerce and Industry"
+enactment_date: 1970
 ---
 
 # Patents

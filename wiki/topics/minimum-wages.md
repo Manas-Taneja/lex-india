@@ -4,6 +4,9 @@ acts:
   - Minimum Wages Act 1948
   - Code on Wages 2019
 updated: 2026-04-13
+status: current
+department: "Ministry of Labour and Employment"
+enactment_date: 1948
 ---
 
 # Minimum Wages

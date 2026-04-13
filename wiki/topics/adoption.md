@@ -5,6 +5,9 @@ acts:
   - Juvenile Justice (Care and Protection of Children) Act 2015
   - Guardians and Wards Act 1890
 updated: 2026-04-13
+status: current
+department: "Ministry of Women and Child Development"
+enactment_date: 2015
 ---
 
 # Adoption

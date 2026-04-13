@@ -2,6 +2,9 @@
 topic: competition-law
 acts: [competition-act-2002]
 updated: 2026-04-12
+status: current
+department: "Ministry of Corporate Affairs"
+enactment_date: 2002
 ---
 
 ## Definition

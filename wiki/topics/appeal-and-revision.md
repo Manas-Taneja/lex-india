@@ -2,6 +2,9 @@
 topic: appeal-and-revision
 acts: [bnss-2023, cpc-1908]
 updated: 2026-04-12
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1908
 ---
 
 ## Definition

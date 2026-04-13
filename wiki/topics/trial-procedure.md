@@ -2,6 +2,9 @@
 topic: trial-procedure
 acts: [bnss-2023, crpc-1973]
 updated: 2026-04-12
+status: current
+department: "Ministry of Home Affairs"
+enactment_date: 2023
 ---
 
 ## Definition

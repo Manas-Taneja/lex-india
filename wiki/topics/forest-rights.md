@@ -5,6 +5,9 @@ acts:
   - Forest Conservation Act 1980
   - Panchayats Extension to Scheduled Areas Act 1996
 updated: 2026-04-13
+status: current
+department: "Ministry of Tribal Affairs"
+enactment_date: 2006
 ---
 
 # Forest Rights

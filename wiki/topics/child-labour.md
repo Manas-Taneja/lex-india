@@ -4,6 +4,9 @@ acts:
   - Child and Adolescent Labour (Prohibition and Regulation) Act 1986
   - Right of Children to Free and Compulsory Education Act 2009
 updated: 2026-04-13
+status: current
+department: "Ministry of Labour and Employment"
+enactment_date: 1986
 ---
 
 # Child Labour

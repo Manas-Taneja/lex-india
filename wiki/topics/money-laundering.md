@@ -2,6 +2,9 @@
 topic: money-laundering
 acts: [pmla-2002]
 updated: 2026-04-12
+status: current
+department: "Ministry of Finance"
+enactment_date: 2002
 ---
 
 ## Definition

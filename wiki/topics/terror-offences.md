@@ -2,6 +2,9 @@
 topic: terror-offences
 acts: [uapa-1967]
 updated: 2026-04-12
+status: current
+department: "Ministry of Home Affairs"
+enactment_date: 2019
 ---
 
 ## Definition

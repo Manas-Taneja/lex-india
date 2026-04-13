@@ -5,6 +5,9 @@ acts:
   - Medical Termination of Pregnancy (Amendment) Act 2021
   - MTP Rules 2003 (amended 2021)
 updated: 2026-04-13
+status: current
+department: "Ministry of Health and Family Welfare"
+enactment_date: 1971
 ---
 
 # Abortion Rights

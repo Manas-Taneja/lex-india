@@ -3,6 +3,9 @@ topic: company-incorporation
 acts: [companies-act-2013]
 supersedes_topic_from: []
 updated: 2026-04-12
+status: current
+department: "Ministry of Corporate Affairs"
+enactment_date: 2013
 ---
 
 ## Definition

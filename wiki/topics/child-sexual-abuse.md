@@ -2,6 +2,9 @@
 topic: child-sexual-abuse
 acts: [pocso-act-2012]
 updated: 2026-04-12
+status: current
+department: "Ministry of Women and Child Development"
+enactment_date: 2012
 ---
 
 ## Definition

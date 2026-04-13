@@ -3,6 +3,9 @@ topic: fir
 acts: [bnss-2023]
 supersedes_topic_from: [crpc-1973]
 updated: 2026-04-12
+status: current
+department: "Ministry of Home Affairs"
+enactment_date: 2023
 ---
 
 ## Definition

@@ -3,6 +3,9 @@ topic: divorce
 acts: [hindu-marriage-act-1955]
 supersedes_topic_from: []
 updated: 2026-04-12
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1955
 ---
 
 ## Definition

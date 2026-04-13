@@ -3,6 +3,9 @@ topic: contract-labour
 acts:
   - Contract Labour (Regulation and Abolition) Act 1970
 updated: 2026-04-13
+status: current
+department: "Ministry of Labour and Employment"
+enactment_date: 1970
 ---
 
 # Contract Labour

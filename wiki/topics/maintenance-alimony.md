@@ -10,6 +10,9 @@ acts:
   - Muslim Women (Protection of Rights on Marriage) Act 2019
   - Maintenance and Welfare of Parents and Senior Citizens Act 2007
 updated: 2026-04-13
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1955
 ---
 
 # Maintenance and Alimony

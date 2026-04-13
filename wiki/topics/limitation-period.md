@@ -2,6 +2,9 @@
 topic: limitation-period
 acts: [limitation-act-1963]
 updated: 2026-04-12
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1963
 ---
 
 ## Definition

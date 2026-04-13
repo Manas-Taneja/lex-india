@@ -2,6 +2,9 @@
 topic: atrocities-against-sc-st
 acts: [sc-st-prevention-of-atrocities-act-1989]
 updated: 2026-04-12
+status: current
+department: "Ministry of Social Justice and Empowerment"
+enactment_date: 2015
 ---
 
 ## Definition

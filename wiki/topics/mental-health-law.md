@@ -4,6 +4,9 @@ acts:
   - Mental Healthcare Act 2017
   - Bharatiya Nyaya Sanhita 2023
 updated: 2026-04-13
+status: current
+department: "Ministry of Health and Family Welfare"
+enactment_date: 2017
 ---
 
 # Mental Health Law

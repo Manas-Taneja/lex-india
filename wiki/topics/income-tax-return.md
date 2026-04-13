@@ -3,6 +3,9 @@ topic: income-tax-return
 acts: [income-tax-act-1961]
 supersedes_topic_from: []
 updated: 2026-04-12
+status: current
+department: "Ministry of Finance"
+enactment_date: 1961
 ---
 
 ## Definition

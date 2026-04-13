@@ -3,6 +3,9 @@ topic: gratuity
 acts:
   - Payment of Gratuity Act 1972
 updated: 2026-04-13
+status: current
+department: "Ministry of Labour and Employment"
+enactment_date: 1972
 ---
 
 # Gratuity

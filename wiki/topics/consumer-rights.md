@@ -2,6 +2,9 @@
 topic: consumer-rights
 acts: [consumer-protection-act-2019]
 updated: 2026-04-12
+status: current
+department: "Ministry of Consumer Affairs, Food and Public Distribution"
+enactment_date: 2019
 ---
 
 ## Definition

@@ -2,6 +2,9 @@
 topic: insurance
 acts: [insurance-act-1938, irdai-act-1999, motor-vehicles-act-1988]
 updated: 2026-04-12
+status: current
+department: "Ministry of Finance"
+enactment_date: 1938
 ---
 
 ## Definition

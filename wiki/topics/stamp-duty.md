@@ -3,6 +3,9 @@ topic: stamp-duty
 acts:
   - Indian Stamp Act 1899
 updated: 2026-04-13
+status: current
+department: "Ministry of Finance"
+enactment_date: 1899
 ---
 
 # Stamp Duty

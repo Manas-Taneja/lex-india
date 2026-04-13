@@ -2,6 +2,9 @@
 topic: negotiable-instruments
 acts: [negotiable-instruments-act-1881]
 updated: 2026-04-12
+status: current
+department: "Ministry of Finance"
+enactment_date: 1881
 ---
 
 ## Definition

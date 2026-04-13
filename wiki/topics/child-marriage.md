@@ -6,6 +6,9 @@ acts:
   - Indian Penal Code 1860
   - Protection of Children from Sexual Offences Act 2012
 updated: 2026-04-13
+status: current
+department: "Ministry of Women and Child Development"
+enactment_date: 2006
 ---
 
 # Child Marriage

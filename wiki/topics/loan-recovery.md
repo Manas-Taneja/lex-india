@@ -6,6 +6,9 @@ acts:
   - Insolvency and Bankruptcy Code 2016
   - Negotiable Instruments Act 1881
 updated: 2026-04-13
+status: current
+department: "Ministry of Finance"
+enactment_date: 2002
 ---
 
 # Loan Recovery

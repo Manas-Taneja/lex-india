@@ -2,6 +2,9 @@
 topic: sexual-harassment-at-work
 acts: [posh-act-2013]
 updated: 2026-04-12
+status: current
+department: "Ministry of Women and Child Development"
+enactment_date: 2013
 ---
 
 ## Definition

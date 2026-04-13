@@ -2,6 +2,9 @@
 topic: panchayati-raj
 acts: [constitution, panchayats-extension-act-1996]
 updated: 2026-04-12
+status: current
+department: "Ministry of Panchayati Raj"
+enactment_date: 1992
 ---
 
 ## Definition

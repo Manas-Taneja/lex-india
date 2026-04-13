@@ -7,6 +7,9 @@ acts:
   - Parsi Marriage and Divorce Act 1936
   - Indian Succession Act 1925
 updated: 2026-04-13
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1955
 ---
 
 # Marriage Registration

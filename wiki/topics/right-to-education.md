@@ -4,6 +4,9 @@ acts:
   - Constitution of India (Article 21A — 86th Amendment 2002)
   - Right of Children to Free and Compulsory Education Act 2009
 updated: 2026-04-13
+status: current
+department: "Ministry of Education"
+enactment_date: 2009
 ---
 
 # Right to Education

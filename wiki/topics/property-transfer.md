@@ -3,6 +3,9 @@ topic: property-transfer
 acts:
   - Transfer of Property Act 1882
 updated: 2026-04-13
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1882
 ---
 
 # Transfer of Property

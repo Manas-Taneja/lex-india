@@ -3,6 +3,9 @@ topic: contract
 acts: [indian-contract-act-1872]
 supersedes_topic_from: []
 updated: 2026-04-12
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1872
 ---
 
 ## Definition

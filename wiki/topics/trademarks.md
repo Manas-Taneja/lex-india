@@ -4,6 +4,9 @@ acts:
   - Trade Marks Act 1999
   - Geographical Indications of Goods (Registration and Protection) Act 1999
 updated: 2026-04-13
+status: current
+department: "Ministry of Commerce and Industry"
+enactment_date: 1999
 ---
 
 # Trademarks

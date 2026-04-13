@@ -3,6 +3,9 @@ topic: tds-tcs
 acts:
   - Income Tax Act 1961
 updated: 2026-04-13
+status: current
+department: "Ministry of Finance"
+enactment_date: 1961
 ---
 
 # Tax Deducted at Source and Tax Collected at Source (TDS/TCS)

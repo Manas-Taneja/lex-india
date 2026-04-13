@@ -6,6 +6,9 @@ acts:
   - Indian Succession Act 1925
   - Muslim Personal Law (Shariat) Application Act 1937
 updated: 2026-04-13
+status: current
+department: "Ministry of Law and Justice"
+enactment_date: 1956
 ---
 
 # Inheritance and Succession

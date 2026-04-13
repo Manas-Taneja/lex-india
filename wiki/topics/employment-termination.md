@@ -3,6 +3,9 @@ topic: employment-termination
 acts:
   - Industrial Disputes Act 1947
 updated: 2026-04-13
+status: current
+department: "Ministry of Labour and Employment"
+enactment_date: 1947
 ---
 
 # Employment Termination
