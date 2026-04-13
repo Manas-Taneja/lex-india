@@ -1,4 +1,4 @@
-# India Laws Wiki
+# lex-india
 
 An open corpus of Indian law topic pages designed for LLM agents — structured, self-contained, and machine-readable.
 
@@ -52,7 +52,7 @@ Add to `~/.claude/claude.json`:
   "mcpServers": {
     "india-laws": {
       "command": "python3",
-      "args": ["/path/to/india-laws/india_mcp/server.py"]
+      "args": ["/path/to/lex-india/india_mcp/server.py"]
     }
   }
 }
