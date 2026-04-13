@@ -1,4 +1,4 @@
-# India Laws — Topic Index
+# lex-india — Topic Index
 
 > Entry point for LLM agents. Read this file first, then fetch the relevant topic page.
 > All topic pages are self-contained — no cross-file lookups needed to answer a query.

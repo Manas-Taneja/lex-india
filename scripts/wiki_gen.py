@@ -129,7 +129,7 @@ SEED_TOPICS = [
 
 def build_topic_prompt(topic: str, act_slugs: list[str]) -> str:
     schema = SCHEMA_PATH.read_text() if SCHEMA_PATH.exists() else ""
-    return f"""You are building an India Laws wiki. Write a topic page for: "{topic}"
+    return f"""You are building the lex-india wiki. Write a topic page for: "{topic}"
 
 Relevant acts: {', '.join(act_slugs)}
 
@@ -191,7 +191,7 @@ def generate_act_summary(act_slug: str, act_text: str, force: bool = False) -> P
     if path.exists() and not force:
         return None
 
-    prompt = f"""Write a brief act summary page for an India Laws wiki.
+    prompt = f"""Write a brief act summary page for the lex-india wiki.
 
 Act: {act_slug}
 Full text (first 3000 chars):
@@ -304,7 +304,7 @@ def update_index():
         cat_map.setdefault(category, []).append((topic, one_liner, acts_in_file))
 
     lines = [
-        "# India Laws — Topic Index\n",
+        "# lex-india — Topic Index\n",
         "> Entry point for LLM agents. Read this file first, then fetch the relevant topic page.",
         "> All topic pages are self-contained — no cross-file lookups needed to answer a query.\n",
     ]

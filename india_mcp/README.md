@@ -1,6 +1,6 @@
-# india-laws MCP Server
+# lex-india MCP Server
 
-Gives Claude (or any MCP client) search, read, and write access to the India Laws corpus.
+Gives Claude (or any MCP client) search, read, and write access to the lex-india corpus.
 
 ## Setup
 
@@ -15,9 +15,9 @@ In your Claude config (`claude_desktop_config.json` or equivalent):
 ```json
 {
   "mcpServers": {
-    "india-laws": {
+    "lex-india": {
       "command": "python",
-      "args": ["/path/to/india-laws/india_mcp/server.py"]
+      "args": ["/path/to/lex-india/india_mcp/server.py"]
     }
   }
 }

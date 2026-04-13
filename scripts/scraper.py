@@ -133,7 +133,7 @@ def fetch_act_list(client: httpx.Client) -> list[dict]:
 
 def run_scraper(limit: int = None):
     """Main entry point. limit=N for testing with first N acts."""
-    with httpx.Client(headers={"User-Agent": "india-laws-bot/1.0 (github.com/india-laws)"}) as client:
+    with httpx.Client(headers={"User-Agent": "lex-india-bot/1.0 (github.com/Manas-Taneja/lex-india)"}) as client:
         print("Fetching act list...")
         acts = fetch_act_list(client)
         if limit:

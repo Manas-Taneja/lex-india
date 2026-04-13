@@ -3,7 +3,7 @@ from mcp.server.fastmcp import FastMCP
 
 CORPUS_ROOT = Path(__file__).parent.parent  # repo root
 
-mcp = FastMCP("india-laws")
+mcp = FastMCP("lex-india")
 
 
 def search_corpus(query: str, root: str = None) -> list[dict]:
@@ -66,14 +66,14 @@ def write_page(relative_path: str, content: str, root: str = None) -> str:
 
 @mcp.tool()
 def search(query: str) -> list[dict]:
-    """Search the India Laws corpus for a topic or keyword.
+    """Search the lex-india corpus for a topic or keyword.
     Returns ranked list of matching pages with path and snippet."""
     return search_corpus(query)
 
 
 @mcp.tool()
 def read(path: str) -> str:
-    """Read a specific page from the India Laws corpus.
+    """Read a specific page from the lex-india corpus.
     Use paths like 'wiki/topics/theft.md' or 'wiki/INDEX.md'."""
     return read_page(path)
 

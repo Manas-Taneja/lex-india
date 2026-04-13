@@ -1,4 +1,4 @@
-# Contributing to india-laws
+# Contributing to lex-india
 
 ## What lives where
 - `acts/` — raw scraped text. Do not edit manually. File issues for scraper bugs.

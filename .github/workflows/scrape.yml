@@ -27,8 +27,8 @@ jobs:
 
       - name: Commit new/updated acts
         run: |
-          git config user.name "india-laws-bot"
-          git config user.email "bot@india-laws"
+          git config user.name "lex-india-bot"
+          git config user.email "bot@lex-india"
           git add acts/
           git diff --staged --quiet || git commit -m "chore: scraper update $(date +%Y-%m-%d)"
 
