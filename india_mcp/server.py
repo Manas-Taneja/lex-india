@@ -44,7 +44,7 @@ def read_page(relative_path: str, root: str = None) -> str:
     """Read a wiki or act page by relative path."""
     root_path = Path(root) if root else CORPUS_ROOT
     resolved = (root_path / relative_path).resolve()
-    if not str(resolved).startswith(str(root_path.resolve())):
+    if not resolved.is_relative_to(root_path.resolve()):
         raise ValueError(f"path traversal rejected: {relative_path}")
     if not resolved.exists():
         raise FileNotFoundError(f"Page not found: {relative_path}")
@@ -55,7 +55,7 @@ def write_page(relative_path: str, content: str, root: str = None) -> str:
     """Write or update a wiki page. Only wiki/ paths allowed."""
     root_path = Path(root) if root else CORPUS_ROOT
     resolved = (root_path / relative_path).resolve()
-    if not str(resolved).startswith(str(root_path.resolve())):
+    if not resolved.is_relative_to(root_path.resolve()):
         raise ValueError(f"path traversal rejected: {relative_path}")
     if not relative_path.startswith("wiki/"):
         raise ValueError(f"write only allowed in wiki/: {relative_path}")

@@ -1,5 +1,13 @@
 import pytest
 from pathlib import Path
+from unittest.mock import MagicMock
+import sys
+
+# Mock FastMCP before importing server to avoid ModuleNotFoundError
+sys.modules["mcp"] = MagicMock()
+sys.modules["mcp.server"] = MagicMock()
+sys.modules["mcp.server.fastmcp"] = MagicMock()
+
 from india_mcp.server import search_corpus, read_page, write_page
 
 def test_search_corpus_finds_theft(tmp_path, monkeypatch):
@@ -38,3 +46,14 @@ def test_write_page_creates_file(tmp_path):
 def test_write_page_rejects_path_traversal(tmp_path):
     with pytest.raises(ValueError, match="path traversal"):
         write_page("../evil.md", "content", str(tmp_path))
+
+def test_write_page_rejects_tricky_traversal(tmp_path):
+    # This specifically tests the fix for the reported vulnerability
+    root = tmp_path / "repo"
+    root.mkdir()
+    secret = tmp_path / "repo_secret"
+    secret.mkdir()
+
+    # "wiki/../../repo_secret/exploited.txt" should be rejected when root is "repo"
+    with pytest.raises(ValueError, match="path traversal"):
+        write_page("wiki/../../repo_secret/exploited.txt", "content", root=str(root))
