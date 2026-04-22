@@ -4,6 +4,8 @@ from pathlib import Path
 
 TOPICS_DIR = Path(__file__).parent.parent / "wiki" / "topics"
 
+FRONTMATTER_RE = re.compile(r'^---\n(.*?)\n---\n', re.DOTALL)
+
 # (status, department, enactment_date)
 ENRICHMENT = {
     # Constitutional
@@ -117,7 +119,7 @@ def enrich(path: Path, status: str, department: str, enactment_date: int) -> boo
         return False
 
     # Find end of frontmatter block
-    match = re.match(r'^---\n(.*?)\n---\n', text, re.DOTALL)
+    match = FRONTMATTER_RE.match(text)
     if not match:
         print(f"  SKIP (no frontmatter): {path.name}")
         return False

@@ -148,8 +148,14 @@ updated: {date.today()}
 Write the complete topic page now. Plain English first, then legal specifics."""
 
 
+FRONTMATTER_RE = re.compile(r'^---\n(.*?)\n---', re.DOTALL)
+STRIP_BOLD_ITALIC_RE = re.compile(r'\*+')
+STRIP_CODE_RE = re.compile(r'`[^`]*`')
+SENTENCE_RE = re.compile(r'([^.!?]+[.!?])')
+
+
 def parse_wiki_frontmatter(content: str) -> dict:
-    match = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
+    match = FRONTMATTER_RE.match(content)
     if not match:
         return {}
     return yaml.safe_load(match.group(1)) or {}
@@ -270,12 +276,12 @@ def _one_liner_from_page(content: str) -> str:
         if line.startswith("-") or line.startswith("*") and len(line) < 4:
             continue
         # Strip markdown bold/italic
-        clean = re.sub(r'\*+', '', line)
-        clean = re.sub(r'`[^`]*`', '', clean)
+        clean = STRIP_BOLD_ITALIC_RE.sub('', line)
+        clean = STRIP_CODE_RE.sub('', clean)
         clean = clean.strip()
         if not clean:
             continue
-        m = re.match(r'([^.!?]+[.!?])', clean)
+        m = SENTENCE_RE.match(clean)
         if m:
             return m.group(1).strip()
         return clean[:120]
