@@ -151,6 +151,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). PRs welcome for:
 
 Informational and research purposes only. Not legal advice. Consult a qualified lawyer for specific matters.
 
+## Author
+
+Built by [Manas Taneja](https://sortai.in/manas), CTO of [Reando](https://reando.in) and founder of [SORT](https://sortai.in), based in New Delhi.
+
 ## License
 
 MIT — legislative text is in the public domain.
